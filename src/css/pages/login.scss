@@ -1,0 +1,33 @@
+.login-page {
+  background-color: $primary;
+}
+
+.login-card {
+  width: 350px;
+  border-radius: 10px;
+
+  img {
+    margin-top: 20px;
+    width: 40%;
+  }
+
+  .login-form-section {
+    width: 70%;
+  }
+
+  .login-input-icon {
+    color: $dark;
+  }
+
+  .login-btn {
+    background-color: $secondary;
+    margin: 20px 0;
+    width: 60%;
+  }
+
+  .forget-password {
+    text-decoration: none;
+    color: $dark;
+    margin-bottom: 10px;
+  }
+}

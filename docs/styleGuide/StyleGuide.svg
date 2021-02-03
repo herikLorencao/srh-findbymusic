@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="96"
+   inkscape:export-filename="C:\Users\herik\Desktop\style guide - findMusic\StyleGuide.png"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="StyleGuide.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="144.50684"
+     inkscape:cy="448.56713"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       y="0.012031039"
+       x="-0.20401751"
+       height="297.07724"
+       width="210.35878"
+       id="rect1763"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.75392;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.835294" />
+    <path
+       id="rect1694-2"
+       style="fill:#02131a;fill-opacity:1;stroke:none;stroke-width:0.341486;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.835294"
+       d="M -0.2040175,0.01203104 V 41.52006 L 41.304017,0.01203104 Z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.1112px;line-height:1.25;font-family:sans-serif;fill:#010d12;fill-opacity:1;stroke:none;stroke-width:0.377781;"
+       x="53.914879"
+       y="29.661415"
+       id="text208"><tspan
+         sodipodi:role="line"
+         id="tspan206"
+         x="53.914879"
+         y="29.661415"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#010d12;fill-opacity:1;stroke-width:0.377781;">Style Guide - SRH</tspan></text>
+    <text
+       id="text208-8"
+       y="58.125088"
+       x="58.449535"
+       style="font-style:normal;font-weight:normal;font-size:10.5133px;line-height:1.25;font-family:sans-serif;fill:#05668d;fill-opacity:1;stroke:none;stroke-width:0.262833;"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#05668d;fill-opacity:1;stroke-width:0.262833;"
+         y="58.125088"
+         x="58.449535"
+         id="tspan206-1"
+         sodipodi:role="line">Logo</tspan></text>
+    <g
+       transform="matrix(0.23618485,0,0,0.23323923,27.442736,40.455612)"
+       style="fill:#05668d;fill-opacity:1"
+       id="g450">
+      <text
+         transform="scale(0.99374458,1.0062948)"
+         id="text208-8-0"
+         y="80.45993"
+         x="443.16257"
+         style="font-style:normal;font-weight:normal;font-size:44.7932px;line-height:1.25;font-family:sans-serif;fill:#05668d;fill-opacity:1;stroke:none;stroke-width:1.11983"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#05668d;fill-opacity:1;stroke-width:1.11983"
+           y="80.45993"
+           x="443.16257"
+           id="tspan206-1-2"
+           sodipodi:role="line">Favicon</tspan></text>
+    </g>
+    <g
+       id="g450-3"
+       style="fill:#010d12;fill-opacity:1"
+       transform="matrix(0.23618485,0,0,0.23323923,-15.058124,106.16937)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:44.7932px;line-height:1.25;font-family:sans-serif;fill:#010d12;fill-opacity:1;stroke:none;stroke-width:1.11983"
+         x="397.71323"
+         y="80.45993"
+         id="text208-8-0-1"
+         transform="scale(0.99374458,1.0062948)"><tspan
+           sodipodi:role="line"
+           id="tspan206-1-2-0"
+           x="397.71323"
+           y="80.45993"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#010d12;fill-opacity:1;stroke-width:1.11983">Color palette</tspan></text>
+    </g>
+    <g
+       transform="translate(-8.8358355,7.4083337)"
+       id="g1612">
+      <rect
+         id="rect426-0"
+         height="9.4901133"
+         width="10.379807"
+         y="211.476"
+         x="28.3041"
+         fill="#f8961e"
+         style="stroke-width:0.0846405;fill:#05668d;fill-opacity:1" />
+      <rect
+         id="rect436-3"
+         height="9.4901133"
+         width="10.379807"
+         y="191.31064"
+         x="28.3041"
+         fill="#202931"
+         style="stroke-width:0.0846405;fill:#010d12;fill-opacity:1" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#241f31;stroke-width:0.188836;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect657"
+         width="10.062345"
+         height="9.0408993"
+         x="28.462833"
+         y="232.58577" />
+      <g
+         id="g450-3-7"
+         style="fill:#2e3c49;fill-opacity:1;"
+         transform="matrix(0.14908602,0,0,0.14722667,-15.833102,185.91586)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:44.7932px;line-height:1.25;font-family:sans-serif;fill:#2e3c49;fill-opacity:1;stroke:none;stroke-width:1.11983;"
+           x="397.71323"
+           y="80.45993"
+           id="text208-8-0-1-5"
+           transform="scale(0.99374458,1.0062948)"><tspan
+             sodipodi:role="line"
+             id="tspan206-1-2-0-3"
+             x="397.71323"
+             y="80.45993"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#2e3c49;fill-opacity:1;stroke-width:1.11983;">Primary Color</tspan></text>
+      </g>
+      <g
+         transform="matrix(0.14908602,0,0,0.14722667,-16.07169,206.08121)"
+         style="fill:#2e3c49;fill-opacity:1;"
+         id="g450-3-7-1">
+        <text
+           transform="scale(0.99374458,1.0062948)"
+           id="text208-8-0-1-5-5"
+           y="80.45993"
+           x="397.71323"
+           style="font-style:normal;font-weight:normal;font-size:44.7932px;line-height:1.25;font-family:sans-serif;fill:#2e3c49;fill-opacity:1;stroke:none;stroke-width:1.11983;"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#2e3c49;fill-opacity:1;stroke-width:1.11983;"
+             y="80.45993"
+             x="397.71323"
+             id="tspan206-1-2-0-3-7"
+             sodipodi:role="line">Secondary Color</tspan></text>
+      </g>
+      <g
+         transform="matrix(0.14908602,0,0,0.14722667,-16.310278,226.96638)"
+         style="fill:#2e3c49;fill-opacity:1;"
+         id="g450-3-7-0">
+        <text
+           transform="scale(0.99374458,1.0062948)"
+           id="text208-8-0-1-5-6"
+           y="80.45993"
+           x="397.71323"
+           style="font-style:normal;font-weight:normal;font-size:44.7932px;line-height:1.25;font-family:sans-serif;fill:#2e3c49;fill-opacity:1;stroke:none;stroke-width:1.11983;"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#2e3c49;fill-opacity:1;stroke-width:1.11983;"
+             y="80.45993"
+             x="397.71323"
+             id="tspan206-1-2-0-3-9"
+             sodipodi:role="line">Complementary Color</tspan></text>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5133px;line-height:1.25;font-family:sans-serif;fill:#05668d;fill-opacity:1;stroke:none;stroke-width:0.262833;"
+       x="41.409626"
+       y="185.38078"
+       id="text208-8-2"><tspan
+         sodipodi:role="line"
+         id="tspan206-1-7"
+         x="41.409626"
+         y="185.38078"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#05668d;fill-opacity:1;stroke-width:0.262833;">Colors</tspan></text>
+    <text
+       id="text208-8-2-2"
+       y="186.70351"
+       x="145.77371"
+       style="font-style:normal;font-weight:normal;font-size:10.5133px;line-height:1.25;font-family:sans-serif;fill:#05668d;fill-opacity:1;stroke:none;stroke-width:0.262833;"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#05668d;fill-opacity:1;stroke-width:0.262833;"
+         y="186.70351"
+         x="145.77371"
+         id="tspan206-1-7-9"
+         sodipodi:role="line">Fonts</tspan></text>
+    <g
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="g398"
+       transform="translate(0.35838846)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.3789px;line-height:1.25;font-family:sans-serif;fill:#202931;fill-opacity:1;stroke:none;stroke-width:0.160931"
+         x="119.07117"
+         y="212.66617"
+         id="text1634"><tspan
+           id="tspan1632"
+           x="119.07117"
+           y="212.66617"
+           style="font-size:5.3789px;fill:#202931;fill-opacity:1;stroke-width:0.160931"
+           sodipodi:role="line"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Roboto;-inkscape-font-specification:Roboto"
+   id="tspan1638">h2 - Roboto (25px)</tspan> </tspan></text>
+      <text
+         id="text1634-5"
+         y="221.66142"
+         x="119.50008"
+         style="font-style:normal;font-weight:normal;font-size:5.3789px;line-height:1.25;font-family:sans-serif;fill:#202931;fill-opacity:1;stroke:none;stroke-width:0.160931"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           style="font-size:5.3789px;fill:#202931;fill-opacity:1;stroke-width:0.160931"
+           y="221.66142"
+           x="119.50008"
+           id="tspan1632-7"><tspan
+   id="tspan1638-8"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.160931">text - Roboto (20px)</tspan> </tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.3789px;line-height:1.25;font-family:sans-serif;fill:#202931;fill-opacity:1;stroke:none;stroke-width:0.160931"
+         x="119.31172"
+         y="230.4745"
+         id="text1634-5-8"><tspan
+           id="tspan1632-7-5"
+           x="119.31172"
+           y="230.4745"
+           style="font-size:5.3789px;fill:#202931;fill-opacity:1;stroke-width:0.160931"
+           sodipodi:role="line"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.160931"
+   id="tspan1638-8-5">obs - Roboto (18px)</tspan> </tspan></text>
+      <text
+         id="text1634-6"
+         y="203.36734"
+         x="118.8903"
+         style="font-style:normal;font-weight:normal;font-size:5.3789px;line-height:1.25;font-family:sans-serif;fill:#202931;fill-opacity:1;stroke:none;stroke-width:0.160931"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           style="font-size:5.3789px;fill:#202931;fill-opacity:1;stroke-width:0.160931"
+           y="203.36734"
+           x="118.8903"
+           id="tspan1632-4"><tspan
+   id="tspan1638-87"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.26042px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.160931">h1 - Roboto (35px)</tspan> </tspan></text>
+    </g>
+    <g
+       transform="matrix(0.60700217,0,0,0.60700217,-378.48597,-274.869)"
+       id="g65">
+      <g
+         id="g961"
+         transform="matrix(0.78228638,0,0,0.78235367,652.41825,532.10305)">
+        <g
+           id="g48">
+          <text
+             id="text18-8"
+             y="67.292992"
+             x="102.92111"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.1957px;line-height:1.25;font-family:'Sitka Small';-inkscape-font-specification:'Sitka Small';fill:#1c71d8;fill-opacity:1;stroke:none;stroke-width:0.579897"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Sitka Small';-inkscape-font-specification:'Sitka Small';fill:#1c71d8;fill-opacity:1;stroke-width:0.579897"
+               y="67.292992"
+               x="102.92111"
+               id="tspan16-6"
+               sodipodi:role="line">Find</tspan></text>
+          <text
+             id="text24-0"
+             y="78.257385"
+             x="119.46352"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6077px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';fill:#02131a;fill-opacity:1;stroke:none;stroke-width:0.265196"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';fill:#02131a;fill-opacity:1;stroke-width:0.265196"
+               y="78.257385"
+               x="119.46352"
+               id="tspan22-6"
+               sodipodi:role="line">Music</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g31">
+        <g
+           transform="matrix(1.1349664,0,0,1.1349664,-113.79948,-129.24915)"
+           id="g877">
+          <circle
+             style="fill:#02131a;fill-opacity:1;stroke:none;stroke-width:0.61465"
+             id="path23"
+             cx="725.3446"
+             cy="626.96906"
+             r="15.186432" />
+          <circle
+             style="fill:#010d12;fill-opacity:1;stroke:none;stroke-width:0.548753"
+             id="path27"
+             cx="725.3446"
+             cy="626.96906"
+             r="10.745369" />
+          <circle
+             r="6.6906095"
+             cy="626.96906"
+             cx="725.3446"
+             id="path27-7"
+             style="fill:#05668d;fill-opacity:1;stroke:none;stroke-width:0.341681" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.61465"
+             id="path871"
+             cx="725.3446"
+             cy="626.96906"
+             r="1.7377542" />
+        </g>
+        <g
+           style="fill:#02c39a;fill-opacity:1;stroke:#00a896;stroke-opacity:1"
+           id="g955"
+           transform="matrix(0.70147656,0,0,0.70147656,142.84772,123.50179)">
+          <text
+             transform="scale(0.97772891,1.0227784)"
+             id="text932"
+             y="662.25989"
+             x="825.80878"
+             style="font-style:normal;font-weight:normal;font-size:59.6403px;line-height:1.25;font-family:sans-serif;fill:#02c39a;fill-opacity:1;stroke:#00a896;stroke-width:0.776437;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'FiraMono Nerd Font';-inkscape-font-specification:'FiraMono Nerd Font';fill:#02c39a;fill-opacity:1;stroke:#00a896;stroke-width:0.776437;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               y="662.25989"
+               x="825.80878"
+               id="tspan930"
+               sodipodi:role="line">?</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.64754114,0,0,0.64754114,-313.05951,-298.47645)"
+       id="g31-1">
+      <g
+         transform="matrix(1.1349664,0,0,1.1349664,-113.79948,-129.24915)"
+         id="g877-6">
+        <circle
+           style="fill:#02131a;fill-opacity:1;stroke:none;stroke-width:0.61465"
+           id="path23-3"
+           cx="725.3446"
+           cy="626.96906"
+           r="15.186432" />
+        <circle
+           style="fill:#010d12;fill-opacity:1;stroke:none;stroke-width:0.548753"
+           id="path27-74"
+           cx="725.3446"
+           cy="626.96906"
+           r="10.745369" />
+        <circle
+           r="6.6906095"
+           cy="626.96906"
+           cx="725.3446"
+           id="path27-7-8"
+           style="fill:#05668d;fill-opacity:1;stroke:none;stroke-width:0.341681" />
+        <circle
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.61465"
+           id="path871-5"
+           cx="725.3446"
+           cy="626.96906"
+           r="1.7377542" />
+      </g>
+      <g
+         style="fill:#02c39a;fill-opacity:1;stroke:#00a896;stroke-opacity:1"
+         id="g955-0"
+         transform="matrix(0.70147656,0,0,0.70147656,142.84772,123.50179)">
+        <text
+           transform="scale(0.97772891,1.0227784)"
+           id="text932-9"
+           y="662.25989"
+           x="825.80878"
+           style="font-style:normal;font-weight:normal;font-size:59.6403px;line-height:1.25;font-family:sans-serif;fill:#02c39a;fill-opacity:1;stroke:#00a896;stroke-width:0.776437;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'FiraMono Nerd Font';-inkscape-font-specification:'FiraMono Nerd Font';fill:#02c39a;fill-opacity:1;stroke:#00a896;stroke-width:0.776437;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             y="662.25989"
+             x="825.80878"
+             id="tspan930-0"
+             sodipodi:role="line">?</tspan></text>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.26458333,0,0,0.05076771,-53.749998,143.14966)"
+       id="g160">
+      <g
+         id="g184">
+        <rect
+           id="rect116"
+           height="220"
+           width="50"
+           y="-5.6843419e-14"
+           x="800"
+           fill="#d5d5d5" />
+        <g
+           id="g171">
+          <rect
+             fill="#02131a"
+             x="450"
+             y="0"
+             width="50"
+             height="220"
+             id="rect118" />
+          <rect
+             fill="#033a50"
+             x="550"
+             y="-1.4210855e-14"
+             width="50"
+             height="220"
+             id="rect120" />
+          <rect
+             fill="#05668d"
+             x="600"
+             y="-5.6843419e-14"
+             width="50"
+             height="220"
+             id="rect122" />
+          <rect
+             fill="#028090"
+             x="650"
+             y="-5.6843419e-14"
+             width="50"
+             height="220"
+             id="rect124" />
+          <rect
+             fill="#00a896"
+             x="700"
+             y="-5.6843419e-14"
+             width="50"
+             height="220"
+             id="rect126" />
+          <rect
+             fill="#02c39a"
+             x="750"
+             y="-5.6843419e-14"
+             width="50"
+             height="220"
+             id="rect128" />
+          <rect
+             fill="#010d12"
+             x="350"
+             y="0"
+             width="50"
+             height="220"
+             id="rect130" />
+          <rect
+             fill="#31363b"
+             x="500"
+             y="3.8146973e-06"
+             width="50"
+             height="220"
+             id="rect132" />
+          <rect
+             fill="#010d12"
+             x="400"
+             y="0"
+             width="50"
+             height="220"
+             id="rect134" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
