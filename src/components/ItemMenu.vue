@@ -1,7 +1,6 @@
 <template>
   <q-item v-show="showItemMenu" :class="itemMenuClasses">
     <a @click="clickItem" class="itemmenu-section flex items-center">
-      <q-icon class="icon" :name="icon"/>
       <span>{{ label }}</span>
     </a>
   </q-item>

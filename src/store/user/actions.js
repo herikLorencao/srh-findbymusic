@@ -1,9 +1,9 @@
-// import AdminService from 'src/service/AdminService';
+import UserService from 'src/service/UserService';
 
 export async function persistUserInfo({ commit }, data) {
-  // const adminService = new AdminService();
-  const adminId = data;
+  const userService = new UserService();
+  const userId = data;
 
-  // const resp = await adminService.find(adminId);
-  commit('saveUserInfo', adminId);
+  const resp = await userService.find(userId);
+  commit('saveUserInfo', resp);
 }
