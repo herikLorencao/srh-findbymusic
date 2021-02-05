@@ -10,7 +10,7 @@
         <ul class="score-steps">
           <li>Escolha a nota para música utilizando as estrelas</li>
           <li>Clique no botão avançar para continuar a avaliação</li>
-          <li>Clique no botão voltar se desejar reavaliar alguma nota</li>
+          <li>Clique no botão voltar se desejar reavaliar alguma música</li>
         </ul>
         <p>
           <b>Dica:</b> Use o botão ? para escutar uma prévia da música

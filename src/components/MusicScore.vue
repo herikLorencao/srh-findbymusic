@@ -110,7 +110,7 @@ export default {
       const evaluatorId = this.$store.getters['user/getUserId'];
 
       const form = {
-        score: item.score,
+        score: this.score,
         itemId: item.id,
         evaluatorId,
       };
