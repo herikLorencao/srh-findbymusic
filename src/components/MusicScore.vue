@@ -47,7 +47,7 @@ export default {
     forwardClass() {
       const itemIdxLength = this.itemIdx + 1;
       if (this.pagination.totalElements === itemIdxLength) {
-        notify('warning', 'Clique no botão de avançar para finalizar a avaliação');
+        notify('custom-warning', 'Clique no botão de avançar para finalizar a avaliação');
         return 'forward-finish';
       }
       return '';

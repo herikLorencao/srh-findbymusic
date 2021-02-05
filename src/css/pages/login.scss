@@ -32,4 +32,16 @@
     color: $dark;
     margin-bottom: 10px;
   }
+
+  .singup {
+    font-size: 1.2rem;
+    color: $white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+
+  .singup:hover {
+    color: $secondaryLight;
+  }
 }

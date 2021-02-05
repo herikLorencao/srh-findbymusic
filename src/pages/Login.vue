@@ -19,6 +19,7 @@
             </template>
           </q-input>
           <q-btn class="login-btn" text-color="white" label="Entrar" type="submit" />
+          <router-link class="singup" to="/cadastrar">Cadastre-se</router-link>
         </q-form>
       </q-card-section>
     </q-card>
@@ -47,6 +48,9 @@ export default {
         await this.$router.push('/');
       }
     },
+  },
+  mounted() {
+    notify('custom-warning', 'Clique no link de Cadastro caso não possua uma conta');
   },
 };
 </script>
