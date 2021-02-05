@@ -1,0 +1,44 @@
+.music-album {
+  width: 40%;
+}
+
+.music-title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.rating-progress {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.music-actions {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.loading {
+  margin-top: 130px;
+}
+
+.forward-finish {
+  background-color: $secondary;
+}
+
+.evaluation-success {
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  p {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .success-icon {
+    margin-top: 50px;
+    font-size: 9rem;
+  }
+}

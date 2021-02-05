@@ -1,6 +1,7 @@
 import axios from 'axios';
 import jwt from 'jsonwebtoken';
 import Vue from 'vue';
+import notify from 'src/helper/notify';
 import handleErrorResponse from 'src/utils/handleErrorResponse';
 import AuthService from '../AuthService';
 
@@ -32,6 +33,11 @@ export default class Client {
       const resp = await this.client.get(`${resourceUrl}?page=${page}`);
       return resp.data;
     } catch (e) {
+      if (!e.response) {
+        notify('negative', 'Ocorreu um erro interno no sistema');
+        return null;
+      }
+
       handleErrorResponse(e.response.data);
       return null;
     }
@@ -42,6 +48,11 @@ export default class Client {
       const resp = await this.client.get(`${resourceUrl}/${id}`);
       return resp.data;
     } catch (e) {
+      if (!e.response) {
+        notify('negative', 'Ocorreu um erro interno no sistema');
+        return null;
+      }
+
       handleErrorResponse(e.response.data);
       return null;
     }
@@ -52,6 +63,11 @@ export default class Client {
       const resp = await this.client.post(resourceUrl, resource);
       return resp.data;
     } catch (e) {
+      if (!e.response) {
+        notify('negative', 'Ocorreu um erro interno no sistema');
+        return null;
+      }
+
       handleErrorResponse(e.response.data);
       return null;
     }
@@ -80,6 +96,11 @@ export default class Client {
       const resp = await this.client.put(`${resourceUrl}/${id}`, resource);
       return resp.data;
     } catch (e) {
+      if (!e.response) {
+        notify('negative', 'Ocorreu um erro interno no sistema');
+        return null;
+      }
+
       handleErrorResponse(e.response.data);
       return null;
     }
@@ -90,6 +111,11 @@ export default class Client {
       await this.client.delete(`${resourceUrl}/${id}`);
       return true;
     } catch (e) {
+      if (!e.response) {
+        notify('negative', 'Ocorreu um erro interno no sistema');
+        return null;
+      }
+
       handleErrorResponse(e.response.data);
       return null;
     }

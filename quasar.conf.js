@@ -69,6 +69,7 @@ module.exports = function (/* ctx */) {
         JWT_SIGNATURE: 'VGFrZSBPbiBNZSBUYWtlIE1lIE9u',
         API_USER: 'admin',
         API_PASSWORD: '123456',
+        PROJECT_ID: 1,
       },
 
       // https://quasar.dev/quasar-cli/handling-webpack

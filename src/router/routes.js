@@ -18,6 +18,7 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/Index.vue') },
+      { path: 'realizar', component: () => import('pages/rating/CreateRatings') },
     ],
   },
   // Always leave this as last one,
