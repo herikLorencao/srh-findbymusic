@@ -19,9 +19,18 @@
     />
     <div class="flex justify-around music-actions">
       <q-btn @click="backward" icon="fas fa-backward"/>
-      <q-btn icon="fas fa-question"/>
+      <q-btn @click="toggleVisiblePlaylist" icon="fas fa-question"/>
       <q-btn @click="forward" :class="forwardClass" icon="fas fa-forward"/>
     </div>
+
+    <q-dialog v-model="visiblePlaylist" persistent>
+      <q-card class="playlist flex column dark-page">
+        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWWrDntpgyzu9"
+                width="300" height="380" frameborder="0" allowtransparency="true"
+                allow="encrypted-media" />
+        <q-btn @click="toggleVisiblePlaylist" label="Voltar para avaliações" />
+      </q-card>
+    </q-dialog>
   </div>
   <q-circular-progress
     v-else
@@ -69,9 +78,13 @@ export default {
       },
       score: 0,
       loading: false,
+      visiblePlaylist: false,
     };
   },
   methods: {
+    toggleVisiblePlaylist() {
+      this.visiblePlaylist = !this.visiblePlaylist;
+    },
     backward() {
       this.saveItemRating();
       const newItemIdx = this.itemIdx - 1;
