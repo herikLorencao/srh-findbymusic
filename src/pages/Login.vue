@@ -7,13 +7,13 @@
       <q-card-section class="login-form-section">
         <q-form @submit="submitLogin" class="flex column items-center">
           <q-input class="login-input" color="teal-12" v-model="loginForm.login" placeholder="login"
-                   dark>
+                   dark required>
             <template v-slot:prepend>
               <q-icon class="login-input-icon" name="fas fa-user"/>
             </template>
           </q-input>
           <q-input class="login-input" color="teal-12" v-model="loginForm.password" dark
-                   placeholder="senha" type="password">
+                   placeholder="senha" type="password" required>
             <template v-slot:prepend>
               <q-icon class="login-input-icon" name="fas fa-key"/>
             </template>
