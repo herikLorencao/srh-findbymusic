@@ -126,9 +126,11 @@ export default {
       await this.editUserSubmit();
     },
     toggleVerifyPasswordMenu() {
+      this.loading = false;
       this.verifyPasswordVisible = !this.verifyPasswordVisible;
     },
     toggleChangePasswordMenu() {
+      this.loading = false;
       this.changePasswordVisible = !this.changePasswordVisible;
     },
     clearPassword() {
