@@ -52,6 +52,7 @@ export default {
 
       if (this.userForm.password !== this.verifyPassword) {
         notify('negative', 'As senhas informadas não conferem');
+        this.loading = false;
         return;
       }
 
