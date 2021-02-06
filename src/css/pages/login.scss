@@ -1,14 +1,16 @@
 .login-page {
-  background-color: $primary;
+  background-color: $accent;
 }
 
 .login-card {
+  background-color: $dark;
   width: 350px;
   border-radius: 10px;
+  border-color: $light-gray;
 
   img {
     margin-top: 20px;
-    width: 40%;
+    width: 60%;
   }
 
   .login-form-section {
@@ -16,7 +18,7 @@
   }
 
   .login-input-icon {
-    color: $dark;
+    color: $light-gray;
   }
 
   .login-btn {
@@ -29,5 +31,17 @@
     text-decoration: none;
     color: $dark;
     margin-bottom: 10px;
+  }
+
+  .singup {
+    font-size: 1.2rem;
+    color: $white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+
+  .singup:hover {
+    color: $secondaryLight;
   }
 }

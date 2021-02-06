@@ -1,0 +1,43 @@
+.index-page {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  @media (max-width: $breakpoint-md-min) {
+    h1 {
+      font-size: 2rem;
+      text-align: center;
+      line-height: 1em;
+      margin-bottom: 50px;
+    }
+  }
+
+  .welcome-guide {
+    width: 70%;
+
+    p {
+      text-align: justify;
+      font-size: 1.3rem;
+    }
+
+    ul {
+      font-size: 1.1rem;
+    }
+
+    .welcome-action {
+      width: 100%;
+      margin-top: 40px;
+    }
+
+    .btn-start {
+      padding: 0 20px;
+      background-color: $blue-sapphire;
+    }
+
+    @media (max-width: $breakpoint-md-min) {
+      .btn-start {
+       margin-bottom: 50px;
+      }
+    }
+  }
+}

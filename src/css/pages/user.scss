@@ -1,0 +1,112 @@
+.user-profile {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .form {
+    width: 80%;
+  }
+
+  .input {
+    width: 70%;
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+  }
+
+  .user-change-password {
+    width: 70%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .btn {
+    padding: 0 40px;
+    background-color: $blue-sapphire;
+  }
+}
+
+.password-api-dialog-card {
+  color: $white;
+  background-color: $accent;
+  width: 60%;
+
+  @media (max-width: $breakpoint-md-min) {
+    width: 98%;
+  }
+
+  .text-dialog {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .password-inputs {
+    width: 80%;
+
+    .input {
+      margin-bottom: 10px;
+      font-size: 1.05rem;
+    }
+  }
+
+  .btn-actions {
+    .btn {
+      background-color: $blue-sapphire;
+      padding: 0 20px;
+    }
+
+    margin-bottom: 10px;
+  }
+}
+
+.signup-card {
+  background-color: $dark;
+  border-radius: 10px;
+  border-color: $light-gray;
+  width: 40%;
+
+  .create-user-form {
+    width: 70%;
+  }
+
+  .user-create-input {
+    width: 70%;
+  }
+
+  @media (max-width: $breakpoint-md-min) {
+    width:80%;
+
+    .create-user-form {
+      width: 90%;
+    }
+
+    .user-create-input {
+      width: 90%;
+    }
+  }
+
+  .title {
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 400;
+    color: $white;
+  }
+
+  .btn {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: $secondary;
+    padding: 0 20px;
+  }
+
+  .link {
+    color: $white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+
+  .link:hover {
+    color: $secondary;
+  }
+}

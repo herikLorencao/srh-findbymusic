@@ -36,11 +36,10 @@
     <q-drawer
       v-model="leftDrawerOpen"
       show-if-above
-      bordered
-      content-class="bg-grey-1"
+      content-class="left-menu"
     >
       <div class="flex justify-center logo-image-painel">
-        <q-img class="logo-main-image" src="../assets/primaryLogo.png"/>
+        <q-img class="logo-main-image" src="../assets/secundaryLogo.png"/>
       </div>
 
       <q-list>
@@ -72,76 +71,19 @@ import AuthService from 'src/service/AuthService';
 
 const linksData = [
   {
-    link: '/projetos',
-    icon: 'fas fa-paperclip',
-    label: 'Projetos',
+    link: '/',
+    icon: 'fas fa-edit',
+    label: 'Inicio',
   },
   {
-    link: '/projetos/selecionar',
-    icon: 'fas fa-exchange-alt',
-    label: 'Selecionar Projeto',
-    parent: 'Projetos',
-  },
-  {
-    link: '/projetos/usuarios',
-    icon: 'fas fa-user',
-    label: 'Usuários',
-    parent: 'Projetos',
-  },
-  {
-    link: '/projetos/recomendacoes',
-    icon: 'fas fa-lightbulb',
-    label: 'Recomendações',
-    parent: 'Projetos',
-  },
-  {
-    link: '/projetos/avaliacoes',
+    link: '/avaliacoes',
     icon: 'fas fa-edit',
     label: 'Avaliações',
-    parent: 'Projetos',
   },
   {
-    link: '/projetos/itens',
-    icon: 'fas fa-box',
-    label: 'Itens',
-    parent: 'Projetos',
-  },
-  {
-    link: '/projetos/tags',
-    icon: 'fas fa-tag',
-    label: 'Tags',
-    parent: 'Projetos',
-  },
-  {
-    link: '/projetos/tipoitens',
-    icon: 'fas fa-boxes',
-    label: 'Tipos de item',
-    parent: 'Projetos',
-  },
-  {
-    link: '/admins',
-    icon: 'fas fa-user',
-    label: 'Administradores',
-  },
-  {
-    link: '/tags',
-    icon: 'fas fa-tags',
-    label: 'Tags',
-  },
-  {
-    link: '/tipoitens',
-    icon: 'fas fa-boxes',
-    label: 'Tipos de item',
-  },
-  {
-    link: '/atributos',
-    icon: 'fas fa-tasks',
-    label: 'Atributos',
-  },
-  {
-    link: '/apis',
-    icon: 'fas fa-cog',
-    label: 'APIs',
+    link: '/logout',
+    icon: 'fas fa-edit',
+    label: 'Sair',
   },
 ];
 
@@ -193,8 +135,8 @@ export default {
       this.$router.push('/login');
     },
     editProfile() {
-      const adminId = this.$store.getters['user/getUserId'];
-      this.$router.push(`/admins/editar/${adminId}?profile=true`);
+      const evaluatorId = this.$store.getters['user/getUserId'];
+      this.$router.push(`/perfil/${evaluatorId}`);
     },
   },
   async mounted() {

@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import AuthClient from 'src/service/api/AuthClient';
+import notify from 'src/helper/notify';
 
 export default class AuthService {
   constructor() {
@@ -16,7 +17,7 @@ export default class AuthService {
       const token = await this.client.execute(apiLoginForm);
       Vue.$cookies.set('sessionToken', token);
     } catch (e) {
-      // console.log('Mensagem');
+      notify('negative', 'Não foi possível carregar os dados do sistema');
     }
   }
 
