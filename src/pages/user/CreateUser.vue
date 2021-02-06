@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center login-page">
-    <q-card flat bordered class="signup-card flex column items-center">
+    <q-card v-if="!loading" flat bordered class="signup-card flex column items-center">
       <q-card-section class="title">
         Cadastro
       </q-card-section>
@@ -21,6 +21,14 @@
         </q-form>
       </q-card-section>
     </q-card>
+
+    <q-circular-progress
+      v-else
+      indeterminate
+      size="150px"
+      color="secondary"
+      class="q-ma-md"
+    />
   </q-page>
 </template>
 
@@ -35,10 +43,13 @@ export default {
     return {
       userForm: {},
       verifyPassword: '',
+      loading: false,
     };
   },
   methods: {
     async submitCreateUser() {
+      this.loading = true;
+
       if (this.userForm.password !== this.verifyPassword) {
         notify('negative', 'As senhas informadas não conferem');
         return;
@@ -56,6 +67,8 @@ export default {
       } else {
         notify('Não foi possível criar o usuário');
       }
+
+      this.loading = false;
     },
     async syncUserToProject(userId) {
       const projectService = new ProjectService();

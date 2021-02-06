@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex column flex-center dark-page user-profile">
     <h1>Editar Perfil</h1>
-    <q-form class="form flex column items-center" @submit="editUserSubmit">
+    <q-form v-if="!loading" class="form flex column items-center" @submit="editUserSubmit">
       <q-input class="input" dark filled v-model="profileForm.name" label="Nome"/>
       <q-input class="input" dark filled v-model="profileForm.login" label="Login"/>
       <q-input class="input" dark filled v-model="profileForm.email" label="Email"/>
@@ -11,6 +11,14 @@
       </div>
       <q-btn class="btn" text-color="white" label="Salvar" type="submit"/>
     </q-form>
+
+    <q-circular-progress
+      v-else
+      indeterminate
+      size="150px"
+      color="secondary"
+      class="q-ma-md"
+    />
 
     <q-dialog v-model="changePasswordVisible" persistent>
       <q-card class="password-api-dialog-card flex column items-center">
@@ -71,6 +79,7 @@ export default {
       changePasswordVisible: false,
       verifyPasswordVisible: false,
       passwordChanged: false,
+      loading: false,
     };
   },
   computed: {
@@ -85,6 +94,8 @@ export default {
       if (resp) this.profileForm = resp;
     },
     async editUserSubmit() {
+      this.loading = true;
+
       if (!this.passwordChanged && !this.profileForm.password) {
         this.toggleVerifyPasswordMenu();
         return;
@@ -103,6 +114,8 @@ export default {
 
       if (resp) await this.redirectPage();
       this.clearPassword();
+
+      this.loading = false;
     },
     async redirectPage() {
       await this.$router.push('/');

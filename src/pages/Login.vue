@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center login-page">
-    <q-card flat bordered class="login-card flex column items-center">
+    <q-card v-if="!loading" flat bordered class="login-card flex column items-center">
       <q-card-section class="flex justify-center">
         <img src="~assets/secundaryLogo.png" alt="Logo"/>
       </q-card-section>
@@ -23,6 +23,13 @@
         </q-form>
       </q-card-section>
     </q-card>
+    <q-circular-progress
+      v-else
+      indeterminate
+      size="150px"
+      color="secondary"
+      class="q-ma-md"
+    />
   </q-page>
 </template>
 
@@ -35,10 +42,12 @@ export default {
   data() {
     return {
       loginForm: {},
+      loading: false,
     };
   },
   methods: {
     async submitLogin() {
+      this.loading = true;
       const loginService = new LoginService();
       const userInfo = await loginService.login(this.loginForm);
 
@@ -47,6 +56,7 @@ export default {
         await this.$store.commit('user/saveUserId', userInfo.userId);
         await this.$router.push('/');
       }
+      this.loading = false;
     },
   },
   mounted() {
