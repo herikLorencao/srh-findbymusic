@@ -11,8 +11,8 @@ export default class ItemRatingService {
     return this.client.getAll(`${this.resourceUrl}/projects/${projectId}`, page);
   }
 
-  async listByEvaluator(evaluatorId) {
-    return this.client.getAll(`${this.resourceUrl}/evaluators/${evaluatorId}`);
+  async listByEvaluator(evaluatorId, page) {
+    return this.client.getAll(`${this.resourceUrl}/evaluators/${evaluatorId}`, page);
   }
 
   create(itemRatingForm) {

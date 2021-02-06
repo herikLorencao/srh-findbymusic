@@ -17,7 +17,7 @@ const routes = [
     path: '/avaliacoes',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/Index.vue') },
+      { path: '', component: () => import('pages/rating/ListRatings') },
       { path: 'realizar', component: () => import('pages/rating/CreateRatings') },
     ],
   },
