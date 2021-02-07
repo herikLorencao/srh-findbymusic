@@ -65,7 +65,7 @@ module.exports = function (/* ctx */) {
       // extractCSS: false,
 
       env: {
-        API_URL: 'http://localhost:8080',
+        API_URL: 'https://srh.heriksl.com.br',
         JWT_SIGNATURE: 'VGFrZSBPbiBNZSBUYWtlIE1lIE9u',
         API_USER: 'admin',
         API_PASSWORD: '123456',
