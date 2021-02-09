@@ -25,7 +25,7 @@
 
     <q-dialog v-model="visiblePlaylist" persistent>
       <q-card class="playlist flex column dark-page">
-        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWWrDntpgyzu9"
+        <iframe src="https://open.spotify.com/embed/playlist/5VVIGArPXGdFt1rnxStJgi"
                 width="300" height="380" frameborder="0" allowtransparency="true"
                 allow="encrypted-media" />
         <q-btn @click="toggleVisiblePlaylist" label="Voltar para avaliações" />
