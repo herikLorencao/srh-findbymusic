@@ -3,9 +3,7 @@
     <span v-if="pagination && pagination.totalElements" class="rating-progress">
       Itens: {{ itemIdx + 1 }} / {{ pagination.totalElements }}
     </span>
-    <img v-if="selectedItem.attributes.length > 0" class="music-album"
-         :src="selectedItem.attributes[0].value" alt="Capa Álbum">
-    <img v-else class="music-album" src="../assets/icon.png" alt="Capa Álbum">
+    <img class="music-album" src="../assets/icon.png" alt="Capa Álbum">
     <span class="music-title">{{ selectedItem.name }}</span>
     <q-rating
       v-if="selectedItem"
