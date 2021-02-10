@@ -3,9 +3,7 @@
     <span v-if="pagination && pagination.totalElements" class="rating-progress">
       Itens: {{ itemIdx + 1 }} / {{ pagination.totalElements }}
     </span>
-    <img v-if="selectedItem.attributes && selectedItem.attributes.length > 0" class="music-album"
-         :src="selectedItem.attributes[0].value" alt="Capa Álbum">
-    <img v-else class="music-album" src="../assets/icon.png" alt="Capa Álbum">
+    <img class="music-album" src="../assets/icon.png" alt="Capa Álbum">
     <span class="music-title">{{ selectedItem.name }}</span>
     <q-rating
       v-if="selectedItem"
@@ -44,7 +42,6 @@
 <script>
 import ProjectService from 'src/service/ProjectService';
 import ItemRatingService from 'src/service/ItemRatingService';
-import ItemService from 'src/service/ItemService';
 import notify from 'src/helper/notify';
 
 export default {
@@ -133,18 +130,18 @@ export default {
 
       itemRatingService.create(form);
     },
-    async loadAttributes(itemId) {
-      const itemService = new ItemService();
-      const resp = await itemService.listAttributes(itemId);
-
-      // eslint-disable-next-line dot-notation
-      if (resp && resp['_embedded'].attributes) {
-        // eslint-disable-next-line dot-notation
-        return resp['_embedded'].attributes;
-      }
-
-      return [];
-    },
+    // async loadAttributes(itemId) {
+    //   const itemService = new ItemService();
+    //   const resp = await itemService.listAttributes(itemId);
+    //
+    //   // eslint-disable-next-line dot-notation
+    //   if (resp && resp['_embedded'].attributes) {
+    //     // eslint-disable-next-line dot-notation
+    //     return resp['_embedded'].attributes;
+    //   }
+    //
+    //   return [];
+    // },
     async loadItems(page = 0) {
       this.loading = true;
 
@@ -158,12 +155,12 @@ export default {
       // eslint-disable-next-line dot-notation
       if (resp && resp['_embedded'].itens) this.items.push(...resp['_embedded'].itens);
 
-      const addAttributes = this.items.map(async (item) => {
-        item.attributes = await this.loadAttributes(item.id);
-        return item;
-      });
-
-      this.items = await Promise.all(addAttributes);
+      // const addAttributes = this.items.map(async (item) => {
+      //   item.attributes = await this.loadAttributes(item.id);
+      //   return item;
+      // });
+      //
+      // this.items = await Promise.all(addAttributes);
       this.loading = false;
     },
   },
