@@ -25,8 +25,8 @@
 
         <q-fab flat square class="user-info" icon="fas fa-user" :label="username" direction="down"
                v-model="userMenuActive" vertical-actions-align="right">
-<!--          <q-fab-action @click="editProfile" square class="user-info-action" color="blue-grey-10"-->
-<!--                        icon="fas fa-user-edit" label="Perfil"/>-->
+          <q-fab-action @click="editProfile" square class="user-info-action" color="blue-grey-10"
+                        icon="fas fa-user-edit" label="Perfil"/>
           <q-fab-action @click="logout" square class="user-info-action" color="blue-grey-10"
                         icon="fas fa-sign-out-alt" label="Sair"/>
         </q-fab>
